@@ -1,7 +1,7 @@
 const Todo = Backbone.Model.extend({
   defaults: () => ({title: '', completed: false}),
 
-  toggle() {
+  toggleCompleted() {
     this.set('completed', !this.get('completed'));
   }
 });

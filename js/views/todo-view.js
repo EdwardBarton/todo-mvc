@@ -24,6 +24,6 @@ const TodoView = Backbone.View.extend({
   },
 
   toggleCompleted() {
-    this.model.toggle();
+    this.model.toggleCompleted();
   }
 });

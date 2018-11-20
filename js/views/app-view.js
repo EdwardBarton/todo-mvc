@@ -26,7 +26,6 @@ const AppView = Backbone.View.extend({
       this.addOne(todo);
     });
     $(`.all`).addClass(`selected`);
-    console.log(this);
     return this;
   },
 
@@ -36,7 +35,6 @@ const AppView = Backbone.View.extend({
       this.addOne(todo);
     });
     $(`.active`).addClass(`selected`);
-    console.log(this);
     return this;
   },
 
@@ -46,7 +44,6 @@ const AppView = Backbone.View.extend({
       this.addOne(todo);
     });
     $(`.completed`).addClass(`selected`);
-    console.log(this);
     return this;
   },
 
